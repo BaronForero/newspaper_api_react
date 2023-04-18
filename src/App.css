@@ -1,38 +1,32 @@
 .App {
   text-align: center;
+  margin: 5vh 2rem auto auto;
+}
+.headline{
+  font-size: 3rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.newsDiv{
+  width: 80%;
+  margin: 5vh auto;
+  background-color: #e4e3e3;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.newsDiv h2{
+  padding: 5%;
+  font-size: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.newsDiv img{
+  width: 70%;
 }
 
-.App-link {
-  color: #61dafb;
+.newsDiv p{
+  width: 60%;
+  margin: 3vh auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.newsDiv h3{
+  padding: 5%;
+  margin: 3vh auto;
 }
